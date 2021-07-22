@@ -1,3 +1,7 @@
+use std::fmt;
+mod display;
+mod formatting;
+
 fn main() {
     println!("Hello, world!");
 
@@ -122,4 +126,10 @@ fn main() {
 
     // Regular print
     println!("Now Ugly {:?} will print!", peter);
+
+    display::display_test();
+    formatting::format_example_1();
+
+
+
 }
